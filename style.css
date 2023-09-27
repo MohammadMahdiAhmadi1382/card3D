@@ -1,0 +1,40 @@
+ body
+                  {
+                        background-image: linear-gradient(to top , #40407a,#2c2c54);
+                  }
+                  .container
+                  {
+                        position: absolute;
+                        transform: translate(-50%,-50%);
+                        left:50%;
+                        top:50%;                        
+                  }
+                  .card
+                  {
+                        width:300px;
+                        height:280px;
+                        text-align: center;
+                        background-image: linear-gradient(to top ,#210c93, #0d117a, #011160, #010e47, #07052e);
+                        transform-style: preserve-3d;
+                        transform: perspective(400px) rotateX(60deg) rotateZ(-30deg);
+                        border-radius: 10px;
+                        transition: transform 2s;
+                        box-shadow: rgba(0, 0, 0, 0.24) -20px 30px 10px;
+                  }
+                  .card img
+                  {
+                        width:100px;
+                        height:100px;
+                        border-radius: 50%;
+                        border:2px solid white;
+                        margin:20px 0px;
+                  }
+                  .card h1
+                  {
+                        font-size: 20px;
+                        color:white;
+                  }
+                  .card:hover
+                  {
+                        transform: rotateY(-19deg);
+                  }
